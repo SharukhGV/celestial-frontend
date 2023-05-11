@@ -9,7 +9,7 @@ function Home(){
     <h1>Celestial Respiration</h1>
     <p><strong>An Astronomy Card Game</strong></p>
     <p>Tracker Application and Resources</p>
-    
+    <strong>WARNING: Do not Navigate away from this page while keeping track of Victory Points because it will reload and reset the counters</strong>
 
     <div className="cardContact">
 

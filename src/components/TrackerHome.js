@@ -2,7 +2,7 @@
 // import NebulaKID from './Nebula10';
 import Nebula10 from './Nebula10';
 import ShootingStars from './ShootingStars';
-
+import CheatSheet from './CheatSheet';
 function TrackerHome(){
 
 
@@ -16,12 +16,14 @@ function TrackerHome(){
   
   return(
 <>
+<strong>WARNING: Do not Navigate away from this page while keeping track of Victory Points because it will reload and reset the counters</strong>
 
 <div><ShootingStars/></div>
 <div><Nebula10/></div>
 <div><Nebula10/></div>
 <div><Nebula10/></div>
 
+<CheatSheet/>
 
 </>
   )

@@ -317,3 +317,17 @@ input[type="checkbox"]:focus {
   text-align: center;
 
 }
+
+body {
+  text-align: center;
+}
+
+ul li {
+  padding-left: 10px;
+  list-style-type: circle;
+
+}
+
+button {
+  margin: auto;
+}
