@@ -1,38 +1,319 @@
-.App {
+.homePAge{
+    
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif
+
+
+}
+
+.cardContact{
+  text-align: center;
+  font-size: medium;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.new {
+  text-align: center;
+
+}
+
+li {display: inline-block;}
+
+
+.no-bullets {
+list-style-type: none;
+background-color: rgb(0, 116, 124);
+padding: 20px;
+}
+.links{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+.links:hover{
+background-color: rgba(7, 245, 165, 0.202);
+border-radius:  10%;
+padding:10px;
+}
+
+
+
+.thedreamtable{
+  font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+
+.thedreamtable td, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+.thedreamtable tr:nth-child(even){background-color: #f2f2f2;}
+
+.thedreamtable tr:hover {background-color: #ddd;}
+
+.thedreamtable th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #8104aa;
+color: white;
+}
+
+
+
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=date], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+div {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+
+
+.thedreamtableSHOW {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+.thedreamtableSHOW  td, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+.thedreamtableSHOW  tr:nth-child(even){background-color: #f2f2f2}
+.thedreamtableSHOW  tr th {text-align: center;}
+
+.thedreamtableSHOW tr:hover {background-color: #ddd;}
+
+.thedreamtableSHOW  th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #895bcf;
+color: white;
+}
+
+.thedreamtable  th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: center;
+background-color: #895bcf;
+color: white;
+}
+
+.thedreamtable  tr {
+text-align: center;
+}
+
+
+button {
+width: 30%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 5px;
+margin-right: 5px;
+
+}
+
+.editbutton {
+width: 30%;
+background-color: #da5b16;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.delete {
+width: 30%;
+background-color: #af4c4c;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+
+legend {
+color:#8104aa;
+}
+
+.HRDiagram {
+  margin:auto;
+  text-align: center;
+
+}
+
+
+.tracka{
+
+text-align: center;
+margin: auto;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+
+.homePAge{
+
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.cardContact{
+  text-align: center;
+  font-size: small;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.links{
+  font-size: small;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
   color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.editbutton {
+  width: 100%;
+  background-color: #da5b16;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete {
+  width: 100%;
+  background-color: #af4c4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.HRDiagram {
+  margin:auto;
+  text-align: center;
+}
+
+.hrd{
+  max-width: 320px;
+  max-height: auto;
+}
+
+
+}
+
+/* Beginning Celestial Respiration Tracker Styling SMALLEST SCREENS */
+
+
+
+#shootingstar :hover{
+  color: #45a049;
+}
+
+/* https://moderncss.dev/pure-css-custom-checkbox-style/ */
+input[type="checkbox"]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+  grid-template-columns: 1em auto;
+
+  
+}
+
+/* 
+.subtitleCR {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} */
+
+.nostarpoint {
+  margin: center;
+  text-align: center;
+
 }

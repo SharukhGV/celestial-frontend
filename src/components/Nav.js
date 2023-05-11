@@ -25,35 +25,38 @@ let activeStyle = {
             >
               Home
             </NavLink></li>
-            <li><NavLink
-              className="links"
-              to="/dreams"
-              exact="true"
-              style={({ isActive }) =>
-              isActive ? activeStyle : nonactiveStyle}
-            >
-              All Posts
-            </NavLink></li>
+
+           
+
            <li> <NavLink
               className="links"
-              to="/dreams/new"
+              to="/trackerhome"
               exact="true"
               style={({ isActive }) =>
               isActive ? activeStyle : nonactiveStyle}
             >
-              New Form
+              Tracker Home
             </NavLink></li>
-
 
             <li> <NavLink
               className="links"
-              to="/about"
+              to="/hrdiagram"
               exact="true"
               style={({ isActive }) =>
               isActive ? activeStyle : nonactiveStyle}
             >
-              About
+              HRDiagram
             </NavLink></li>
+{/* 
+            <li> <NavLink
+              className="links"
+              to="/stars"
+              exact="true"
+              style={({ isActive }) =>
+              isActive ? activeStyle : nonactiveStyle}
+            >
+              Stars
+            </NavLink></li> */}
   
           </ul>
         </nav>

@@ -2,7 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import './App.css';
 import Home from './components/Home';
-import Nav from './components/Nav'
+import Nav from './components/Nav';
+import TrackerHome from './components/TrackerHome'
+import HRDiagram from "./components/HRDiagram";
+// import CheatSheet from "./components/CheatSheet";
+// import Stars from "./components/Stars";
+// import StarDetails from "./components/StarDetails";
+
 function App() {
   return (
       
@@ -10,13 +16,12 @@ function App() {
       <Nav/>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/dreams" element={<Index />} />
-        <Route path="/dreams/:id" element={<Show />} />
-        <Route path="/dreams/:id/edit" element={<Edit />} />
-        <Route path="/dreams/new" element={<NewForm />} />
-        <Route path="/about" element={<About />} /> */}
+        <Route path="/trackerhome" element={<TrackerHome />} />
+        <Route path="/hrdiagram" element={<HRDiagram />} />
+        {/* <Route path="/cheatsheet" element={<CheatSheet />} /> */}
+        {/* <Route path="/stars/:id" element={<StarDetails />} /> */}
 
-        {/* <Route path="*" element={<NotFound />} /> */}
+
       </Routes>
     </Router>
 

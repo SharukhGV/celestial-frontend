@@ -3,28 +3,20 @@ function Home(){
     const pixstyle= {
         fontSize:"12px"
     }
-    
+
     return(
     <div className="homePAge">
-    <h1>Welcome to Teacher's Forum Log App</h1>
-    <p>A Full-Stack Application that uses PostgreSQL databse. </p>
-    <h3>Disclaimer</h3>
-    <p>Never publish any perconal information or activities that may get you or others into a lot of trouble.</p>
-    <p>This app is meant to help teachers vent on issues that are small to others but big to them, and many times others can relate to them</p>
-    <p style={pixstyle}>Images not sourced from API can be found at <a href="https://www.pixabay.com" alt="pixabay site">pixabay's website</a>. This site provides free images for personal and commercial use.
-    </p>
-    <p style={pixstyle}>Images sourced from pixabay have been edited by the <a href="https://www.gimp.org" alt="GIMP site">GIMP software</a></p>
+    <h1>Celestial Respiration</h1>
+    <p><strong>An Astronomy Card Game</strong></p>
+    <p>Tracker Application and Resources</p>
     
+
     <div className="cardContact">
-    <h3 >About the Developer</h3>
+
+    <div>This game is intended to introduce the Night Sky to its players in a fun interactive way. All information garnered for this game is from the Stellarium open-source software. Star images are also from the Stellarium software. Some images used in this game are from NASA, Pixabay.com, and Wikipedia.com. None of these sources endorse this product. This game is only intended to be used as a fun interactive way to familiarize with what is in our sky, and how general celestial processes work. The Definitions of the Celestial Objects are from WordWeb Online Dictionary. Google was a pivotal resource in the making of this game</div>
     
-    <p><strong>Name:</strong> Sharukh G. Velupillai</p>
-    <p><strong>Organization:</strong> PURSUIT</p>
-    <p>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/SharukhGV">
-    Sharukh's GitHub Portfolio        </a>
-          </p>
+    <p style={pixstyle}>Images sourced from pixabay, Stellarium, Wikipedia, Creative Commons, etc. and have been edited by the <a href="https://www.gimp.org" alt="GIMP site">GIMP software</a></p>
+                
     </div>
     
     
