@@ -18,10 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/trackerhome" element={<TrackerHome />} />
         <Route path="/hrdiagram" element={<HRDiagram />} />
-        {/* <Route path="/cheatsheet" element={<CheatSheet />} /> */}
-        {/* <Route path="/stars/:id" element={<StarDetails />} /> */}
-
-
+       
       </Routes>
     </Router>
 
