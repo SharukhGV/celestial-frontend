@@ -16,7 +16,7 @@ function TrackerHome(){
   
   return(
 <>
-<strong>WARNING: Do not Navigate away from this page while keeping track of Victory Points because it will reload and reset the counters</strong>
+<strong>W A R N I N G : Do not Navigate away from this page while keeping track of Victory Points because it will reload and reset the counters</strong>
 
 <div><ShootingStars/></div>
 <div><Nebula10/></div>

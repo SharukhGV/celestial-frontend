@@ -6,10 +6,9 @@ function Home(){
 
     return(
     <div className="homePAge">
-    <h1>Celestial Respiration</h1>
-    <p><strong>An Astronomy Card Game</strong></p>
+    <h1><strong>Celestial Respiration</strong></h1>
+    <div><strong>An Astronomy Card Game</strong></div>
     <p>Tracker Application and Resources</p>
-    <strong>WARNING: Do not Navigate away from this page while keeping track of Victory Points because it will reload and reset the counters</strong>
 
     <div className="cardContact">
 
