@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm start",
+    "start": "node App.js",
     "eject": "react-scripts eject",
     "build": "babel src -d lib",
     "test": "jest"
