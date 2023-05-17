@@ -338,3 +338,14 @@ button {
   padding-left: 200px;
   padding-right: 200px;
 } */
+
+/* .starCardContainer{
+  
+  display:flex;
+flex-direction: row;
+
+} */
+.starCard{
+
+  max-width: 300px;
+}

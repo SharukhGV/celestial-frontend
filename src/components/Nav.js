@@ -47,7 +47,7 @@ let activeStyle = {
             >
               HRDiagram
             </NavLink></li>
-{/* 
+
             <li> <NavLink
               className="links"
               to="/stars"
@@ -56,7 +56,7 @@ let activeStyle = {
               isActive ? activeStyle : nonactiveStyle}
             >
               Stars
-            </NavLink></li> */}
+            </NavLink></li>
   
           </ul>
         </nav>
