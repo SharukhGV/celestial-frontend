@@ -108,12 +108,19 @@ input[type=submit]:hover {
 background-color: #45a049;
 }
 
-div {
+
+input[type=text] {
+padding-right: 30px;
+padding-left: 30px;
+width: 300px;
+ }
+
+/* div {
 border-radius: 5px;
 background-color: #f2f2f2;
 padding: 20px;
 padding-right: 30px;
-}
+} */
 
 
 
@@ -195,16 +202,6 @@ margin-right: 5px;
 }
 
 
-legend {
-color:#8104aa;
-}
-
-.HRDiagram {
-  margin:auto;
-  text-align: center;
-  padding-right: 30px;
-
-}
 
 
 .tracka{
@@ -324,11 +321,7 @@ body {
   text-align: center;
 }
 
-ul li {
-  padding-left: 10px;
-  list-style-type: circle;
 
-}
 
 
 
@@ -361,12 +354,37 @@ legend {
 }
 
 
+
 .warningnav{
   font-size: small;
   font-family: 'Courier New', Courier, monospace;
   background-color: #7891793f;
+  padding: 30px;
+  text-align: center;
 }
 
 
 
 
+
+input[type=option] {
+  max-width: 200px;
+  
+  }
+
+  fieldset{
+
+    max-width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+
+
+.HRDiagram img {
+max-width: 300px;
+}
+
+div{
+  padding: 10px;
+}
