@@ -1,4 +1,4 @@
-import { useState,useEffect } from "react"
+import { useState } from "react"
 import Acrab from "./stars/Acrab.png"
 import AlSalib from "./stars/Al Salib.png"
 import Algorab from "./stars/Algorab.png"
@@ -24,7 +24,7 @@ import Polaris from "./stars/Polaris.png"
 import Rastaban from "./stars/Rastaban.png"
 import Regulus from "./stars/Regulus.png"
 import Rotanev from "./stars/Rotanev.png"
-import Sirius from "./stars/Sirius.png"
+// import Sirius from "./stars/Sirius.png"
 import Sheliak from "./stars/Sheliak.png"
 import Sualocin from "./stars/Sualocin.png"
 import Sulafat from "./stars/Sulafat.png"
@@ -369,7 +369,7 @@ const starData = [
 
     {
       "id": 33,
-      "name": "A Salib",
+      "name": "Al Salib",
       "apparent": 4.25,
       "absolute": 1.79,
       "color": 1.04,
