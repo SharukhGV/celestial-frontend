@@ -112,6 +112,7 @@ div {
 border-radius: 5px;
 background-color: #f2f2f2;
 padding: 20px;
+padding-right: 30px;
 }
 
 
@@ -201,6 +202,7 @@ color:#8104aa;
 .HRDiagram {
   margin:auto;
   text-align: center;
+  padding-right: 30px;
 
 }
 
@@ -347,5 +349,24 @@ flex-direction: row;
 } */
 .starCard{
 
-  max-width: 300px;
+  max-width: 270px;
+  padding-right: 30px;
 }
+
+legend {
+
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+}
+
+
+.warningnav{
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #7891793f;
+}
+
+
+
+

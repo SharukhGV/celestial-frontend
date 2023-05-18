@@ -38,15 +38,7 @@ let activeStyle = {
               Tracker Home
             </NavLink></li>
 
-            <li> <NavLink
-              className="links"
-              to="/hrdiagram"
-              exact="true"
-              style={({ isActive }) =>
-              isActive ? activeStyle : nonactiveStyle}
-            >
-              HRDiagram
-            </NavLink></li>
+            
 
             <li> <NavLink
               className="links"
