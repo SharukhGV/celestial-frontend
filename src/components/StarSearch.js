@@ -395,6 +395,7 @@ const starData = [
 
     return (
         <div>
+          <div><strong>Search for a Star</strong></div>
           <input type="text" value={query} onChange={handleQueryChange} />
           <ul>
             {filteredStars.map(star => (
