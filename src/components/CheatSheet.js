@@ -8,7 +8,7 @@ function CheatSheet(){
 
     const [toggle, setToggle] = useState(false);
 
-    const handleClick = () => {
+    const handleCtrck = () => {
       setToggle(!toggle);
     };
 // useEffect(()=>{
@@ -20,7 +20,7 @@ function CheatSheet(){
 // },[])
 // useEffect(()=>{
 
-//   const handleClick() {
+//   const handleCtrck() {
 //     setToggle(!toggle);
 //   };
 // },[])
@@ -33,48 +33,56 @@ function CheatSheet(){
 if (toggle) {
   return (
     <div>
-      <button onClick={handleClick} style={{ display: toggle ? 'block' : 'none' }} class="btn btn-dark mb-5"><strong>Star Cheat Sheet</strong>
+      <button class="buttonCheat" onClick={handleCtrck} style={{ display: toggle ? 'block' : 'none' }} >Star Cheat Sheet
 </button>
 
-<fieldset>
-  <legend>Star : Evolution</legend>
-      <ul class="list-group">
- <li><div>✨Acrab : Subgiant✨</div></li>
-<li><div>✨Al Salib : Subgiant✨</div></li>
-<li><div>✨Algorab : Subgiant✨</div></li>
-<li><div>✨Alnilam : Supergiant✨</div></li>
-<li><div>✨Alnitak : Supergiant✨</div></li>
-<li><div>✨Alshain : Subgiant✨</div></li>
-<li><div>✨Altair : Main Sequence✨</div></li>
-<li><div>✨Altais : Giant✨</div></li>
-<li><div>✨Antares : Supergiant✨</div></li>
-<li><div>✨Denebola : Main Sequence✨</div></li>
-<li><div>✨Dschubba : Main Sequence✨</div></li>
-<li><div>✨Etamin✨ : Giant✨</div></li>
-<li><div>✨Gienah : Giant✨</div></li>
-<li><div>✨Gorgonea Tertia : Bright Giant✨</div></li>
-<li><div>✨Kochab : Giant✨</div></li>
-<li><div>✨Kraz✨ : Main Sequence✨</div></li>
-<li><div>✨Mintaka : Bright Giant✨</div></li>
-<li><div>✨Miram : Supergiant✨</div></li>
-<li><div>✨Mirphak : Subgiant✨</div></li>
-<li><div>✨Pherkad : Supergiant✨</div></li>
-<li><div>✨Polaris : Supergiant✨</div></li>
-<li><div>✨Rastaban : Bright Giant✨</div></li>
-<li><div>✨Regulus : Main Sequence</div></li>
-<li><div>✨Rotanev : Giant✨</div></li>
-<li><div>✨Sheliak : Giant✨</div></li>
-<li><div>✨Sualocin : Giant✨</div></li>
-<li><div>✨Sulafat : Giant✨</div></li>
-<li><div>✨Tarazed : Bright Giant✨</div></li>
-<li><div>✨Vega : Main Sequence✨</div></li>
-<li><div>✨Zosma : Main Sequence✨</div></li>
-      </ul>
-      </fieldset>
+      <table class="trst-group">
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>Evolution Phase</th>
+        </tr>
+     
+    </thead>
+      <tbody>
+
+ <tr><td>✨Acrab</td>  <td>Subgiant✨</td></tr>
+<tr><td>✨Al Satrb</td> <td>Subgiant✨</td></tr>
+<tr><td>✨Algorab</td>  <td>Subgiant✨</td></tr>
+<tr><td>✨Alnilam</td>  <td>Supergiant✨</td></tr>
+<tr><td>✨Alnitak</td>  <td>Supergiant✨</td></tr>
+<tr><td>✨Alshain</td>  <td>Subgiant✨</td></tr>
+<tr><td>✨Altair</td>  <td>Main Sequence✨</td></tr>
+<tr><td>✨Altais</td>  <td>Giant✨</td></tr>
+<tr><td>✨Antares</td>  <td>Supergiant✨</td></tr>
+<tr><td>✨Denebola</td>  <td>Main Sequence✨</td></tr>
+<tr><td>✨Dschubba</td> <td> Main Sequence✨</td></tr>
+<tr><td>✨Etamin✨</td> <td> Giant✨</td></tr>
+<tr><td>✨Gienah</td> <td> Giant✨</td></tr>
+<tr><td>✨Gorgonea Tertia</td>  <td>Bright Giant✨</td></tr>
+<tr><td>✨Kochab</td>  <td>Giant✨</td></tr>
+<tr><td>✨Kraz✨</td>  <td>Main Sequence✨</td></tr>
+<tr><td>✨Mintaka</td><td>Bright Giant✨</td></tr>
+<tr><td>✨Miram :</td> <td>Supergiant✨</td></tr>
+<tr><td>✨Mirphak</td> <td> Subgiant✨</td></tr>
+<tr><td>✨Pherkad</td>  <td>Supergiant✨</td></tr>
+<tr><td>✨Polaris </td> <td>Supergiant✨</td></tr>
+<tr><td>✨Rastaban </td><td> Bright Giant✨</td></tr>
+<tr><td>✨Regulus </td> <td>Main Sequence</td></tr>
+<tr><td>✨Rotanev</td>  <td>Giant✨</td></tr>
+<tr><td>✨Shetrak </td> <td>Giant✨</td></tr>
+<tr><td>✨Sualocin</td> <td> Giant✨</td></tr>
+<tr><td>✨Sulafat </td> <td>Giant✨</td></tr>
+<tr><td>✨Tarazed </td><td> Bright Giant✨</td></tr>
+<tr><td>✨Vega </td> <td>Main Sequence✨</td></tr>
+<tr><td>✨Zosma </td><td> Main Sequence✨</td></tr>
+</tbody>
+
+      </table>
     </div>
   )
 } else {
-  return <button onClick={handleClick} class="btn btn-dark mb-5">Show Star Cheat Sheet</button>
+  return <button class="buttonCheat" onClick={handleCtrck}>Show Star Cheat Sheet</button>
 }
 
 

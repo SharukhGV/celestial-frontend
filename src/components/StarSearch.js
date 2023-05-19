@@ -24,13 +24,14 @@ import Polaris from "./stars/Polaris.png"
 import Rastaban from "./stars/Rastaban.png"
 import Regulus from "./stars/Regulus.png"
 import Rotanev from "./stars/Rotanev.png"
-// import Sirius from "./stars/Sirius.png"
+import Sirius from "./stars/Sirius.png"
 import Sheliak from "./stars/Sheliak.png"
 import Sualocin from "./stars/Sualocin.png"
 import Sulafat from "./stars/Sulafat.png"
 import Tarazed from "./stars/Tarazed.png"
 import Vega from "./stars/Vega.png"
 import Zosma from "./stars/Zosma.png"
+import TheSun from "./stars/The Sun.png"
 
 function StarSearch(){
 
@@ -209,23 +210,26 @@ const starData = [
       "src": Rotanev
     },
 
-    // {
-    //   "id": 17,
-    //   "name": "The Sun",
-    //   "apparent": -26.74,
-    //   "absolute": 4.83,
-    //   "color": 0.65,
-    //   "distance": 0.00001581
-    // },
+    {
+      "id": 17,
+      "name": "The Sun",
+      "apparent": -26.74,
+      "absolute": 4.83,
+      "color": 0.65,
+      "distance": 0.00001581,
+      "src": TheSun
 
-    // {
-    //   "id": 18,
-    //   "name": "The Sun",
-    //   "apparent": -26.74,
-    //   "absolute": 4.83,
-    //   "color": 0.65,
-    //   "distance": 0.00001581,
-    // },
+    },
+
+    {
+      "id": 18,
+      "name": "Sirius",
+      "apparent": -1.45,
+      "absolute": 1.44,
+      "color": 0.00,
+      "distance": 0.00001581,
+      "src": Sirius
+    },
 
     {
       "id": 19,

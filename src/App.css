@@ -1,14 +1,4 @@
-.homePAge{
-    
-  margin: auto;
-  padding-left: 200px;
-  padding-right: 200px;
-  font-size: 20px;
-  text-align: center;
-  font-family:Arial, Helvetica, sans-serif
 
-
-}
 
 .cardContact{
   text-align: center;
@@ -46,30 +36,6 @@ padding:10px;
 }
 
 
-
-.thedreamtable{
-  font-family: Arial, Helvetica, sans-serif;
-border-collapse: collapse;
-width: 100%;
-}
-
-
-.thedreamtable td, #customers th {
-border: 1px solid #ddd;
-padding: 8px;
-}
-
-.thedreamtable tr:nth-child(even){background-color: #f2f2f2;}
-
-.thedreamtable tr:hover {background-color: #ddd;}
-
-.thedreamtable th {
-padding-top: 12px;
-padding-bottom: 12px;
-text-align: left;
-background-color: #8104aa;
-color: white;
-}
 
 
 
@@ -378,7 +344,8 @@ input[type=option] {
     padding-top: 30px;
     padding-bottom: 30px;
     margin: auto;
-  }
+    border-radius: 10px;
+    }
 
 
 .HRDiagram img {
@@ -387,4 +354,44 @@ max-width: 300px;
 
 div{
   padding: 10px;
+}
+
+
+.buttonCheat{
+  border-radius: 10px;
+  }
+
+.buttonCheat:hover{
+background-color:#45a04980;
+border-radius: 10px;
+}
+
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+table thead tr th {
+background-color: rgba(128, 0, 128, 0.4);
+
 }
