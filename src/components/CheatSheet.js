@@ -57,18 +57,18 @@ if (toggle) {
 <tr><td>✨Antares</td>  <td>Supergiant✨</td></tr>
 <tr><td>✨Denebola</td>  <td>Main Sequence✨</td></tr>
 <tr><td>✨Dschubba</td> <td> Main Sequence✨</td></tr>
-<tr><td>✨Etamin✨</td> <td> Giant✨</td></tr>
+<tr><td>✨Etamin</td> <td> Giant✨</td></tr>
 <tr><td>✨Gienah</td> <td> Giant✨</td></tr>
 <tr><td>✨Gorgonea Tertia</td>  <td>Bright Giant✨</td></tr>
 <tr><td>✨Kochab</td>  <td>Giant✨</td></tr>
-<tr><td>✨Kraz✨</td>  <td>Main Sequence✨</td></tr>
+<tr><td>✨Kraz</td>  <td>Main Sequence✨</td></tr>
 <tr><td>✨Mintaka</td><td>Bright Giant✨</td></tr>
-<tr><td>✨Miram :</td> <td>Supergiant✨</td></tr>
+<tr><td>✨Miram</td> <td>Supergiant✨</td></tr>
 <tr><td>✨Mirphak</td> <td> Subgiant✨</td></tr>
 <tr><td>✨Pherkad</td>  <td>Supergiant✨</td></tr>
 <tr><td>✨Polaris </td> <td>Supergiant✨</td></tr>
 <tr><td>✨Rastaban </td><td> Bright Giant✨</td></tr>
-<tr><td>✨Regulus </td> <td>Main Sequence</td></tr>
+<tr><td>✨Regulus </td> <td>Main Sequence✨</td></tr>
 <tr><td>✨Rotanev</td>  <td>Giant✨</td></tr>
 <tr><td>✨Shetrak </td> <td>Giant✨</td></tr>
 <tr><td>✨Sualocin</td> <td> Giant✨</td></tr>

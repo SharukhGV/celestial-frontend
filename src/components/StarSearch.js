@@ -405,7 +405,7 @@ const starData = [
             {filteredStars.map(star => (
               <li key={star.id}>
                 <img src={star.src} alt={star.name} className="starCard" />
-                <p>{star.name}</p>
+                <p><strong>{star.name}</strong></p>
               </li>
             ))}
           </ul>

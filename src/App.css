@@ -372,6 +372,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 table td, table th {
@@ -394,4 +395,18 @@ table th {
 table thead tr th {
 background-color: rgba(128, 0, 128, 0.4);
 
+}
+
+p .starnameSearch{
+  background-color: #19003e6f;
+  color: #ddd;
+}
+p .starnameSearch{
+  background-color: #6816e26f;
+  color: #ddd;
+
+}
+
+strong{
+  font-family: 'Courier New', Courier, monospace;
 }
