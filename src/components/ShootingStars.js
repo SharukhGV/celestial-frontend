@@ -2,7 +2,7 @@
 import starpoint from "./smallstarpoint.png"
 import nostarpoint from "./smallstarNOpoint.png"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 function ShootingStars(){
 

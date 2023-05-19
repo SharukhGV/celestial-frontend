@@ -1,16 +1,16 @@
 import nebulaEnergy from "./nebenergy.png"
 import usedNebulaEnergy from "./usednebenergy.png"
 import { useState } from "react";
-import Bubble from "./nebulae/Bubble Nebula.png"
-import Carina from "./nebulae/Carina Nebula.png"
-import Crab from "./nebulae/Crab Nebula.png"
-import Elephant from "./nebulae/Elephant's Trunk Nebula.png"
-import Eskimo from "./nebulae/Eskimo Nebula.png"
-import Helix from "./nebulae/Helix Nebula.png"
-import Lagoon from "./nebulae/Lagoon Nebula.png"
-import Orion from "./nebulae/Orion Nebula.png"
-import Ring from "./nebulae/Ring Nebula.png"
-import Trifid from "./nebulae/Trifid Nebula.png"
+// import Bubble from "./nebulae/Bubble Nebula.png"
+// import Carina from "./nebulae/Carina Nebula.png"
+// import Crab from "./nebulae/Crab Nebula.png"
+// import Elephant from "./nebulae/Elephant's Trunk Nebula.png"
+// import Eskimo from "./nebulae/Eskimo Nebula.png"
+// import Helix from "./nebulae/Helix Nebula.png"
+// import Lagoon from "./nebulae/Lagoon Nebula.png"
+// import Orion from "./nebulae/Orion Nebula.png"
+// import Ring from "./nebulae/Ring Nebula.png"
+// import Trifid from "./nebulae/Trifid Nebula.png"
 
 
 
@@ -41,68 +41,68 @@ const handleClick1 = () => {
   };
   
 
-  const starData = [
-    {
-      "id": 1,
-      "name": "Bubble Nebula",
-      "src": Bubble
-    },
+  // const nebulaData = [
+  //   {
+  //     "id": 1,
+  //     "name": "Bubble Nebula",
+  //     "src": Bubble
+  //   },
 
-    {
-      "id": 2,
-      "name": "Carina Nebula",
-      "src": Carina
-    },
+  //   {
+  //     "id": 2,
+  //     "name": "Carina Nebula",
+  //     "src": Carina
+  //   },
 
-    {
-      "id": 3,
-      "name": "Crab Nebula",
-      "src": Crab
-    },
+  //   {
+  //     "id": 3,
+  //     "name": "Crab Nebula",
+  //     "src": Crab
+  //   },
 
-    {
-      "id": 4,
-      "name": "Elephant's Trunk Nebula",
-      "src": Elephant
-    },
+  //   {
+  //     "id": 4,
+  //     "name": "Elephant's Trunk Nebula",
+  //     "src": Elephant
+  //   },
 
-    {
-      "id": 5,
-      "name": "Eskimo Nebula",
-      "src": Eskimo
-    },
+  //   {
+  //     "id": 5,
+  //     "name": "Eskimo Nebula",
+  //     "src": Eskimo
+  //   },
 
-    {
-      "id": 6,
-      "name": "Helix Nebula",
-      "src": Helix
-    },
+  //   {
+  //     "id": 6,
+  //     "name": "Helix Nebula",
+  //     "src": Helix
+  //   },
 
-    {
-      "id": 7,
-      "name": "Lagoon Nebula",
-      "src": Lagoon 
-    },
+  //   {
+  //     "id": 7,
+  //     "name": "Lagoon Nebula",
+  //     "src": Lagoon 
+  //   },
 
-    {
-      "id": 8,
-      "name": "Orion Nebula",
-      "src": Orion
-    },
+  //   {
+  //     "id": 8,
+  //     "name": "Orion Nebula",
+  //     "src": Orion
+  //   },
 
-    {
-      "id": 9,
-      "name": "Ring Nebula",
-      "src": Ring
-    },
+  //   {
+  //     "id": 9,
+  //     "name": "Ring Nebula",
+  //     "src": Ring
+  //   },
 
-    {
-      "id": 10,
-      "name": "Trifid Nebula",
-      "src": Trifid
-    },
+  //   {
+  //     "id": 10,
+  //     "name": "Trifid Nebula",
+  //     "src": Trifid
+  //   },
 
-  ]
+  // ]
 
 
     return(
