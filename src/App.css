@@ -415,3 +415,8 @@ legend strong{
 
   color:yellow
 }
+
+iframe {
+  max-width: fit-content;
+  max-height: fit-content;
+}
