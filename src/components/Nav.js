@@ -42,12 +42,24 @@ let activeStyle = {
 
             <li> <NavLink
               className="links"
-              to="/stars"
+              to="/heavens"
               exact="true"
               style={({ isActive }) =>
               isActive ? activeStyle : nonactiveStyle}
             >
-              Stars
+              
+              Heavens
+            </NavLink></li>
+
+            <li> <NavLink
+              className="links"
+              to="/tutorial"
+              exact="true"
+              style={({ isActive }) =>
+              isActive ? activeStyle : nonactiveStyle}
+            >
+              
+              Tutorials
             </NavLink></li>
   
           </ul>
