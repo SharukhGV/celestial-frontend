@@ -112,12 +112,15 @@ const handleClick1 = () => {
 
 
 
+
+
+
     return(
 
 <div>
 
   <fieldset>
-  <legend><strong>Shooting Star Victory Points</strong></legend>
+  <legend className="yellowshootingstar"><strong>Shooting Star Victory Points</strong></legend>
 
 <div>
 <img onClick={handleClick1} src={toggle1?nostarpoint:starpoint} alt="shooting star point 2"/>
