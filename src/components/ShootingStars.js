@@ -2,7 +2,7 @@
 import starpoint from "./smallstarpoint.png"
 import nostarpoint from "./smallstarNOpoint.png"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 function ShootingStars(){
 
@@ -18,7 +18,45 @@ function ShootingStars(){
     const [toggle0, setToggle0] = useState(true);
 
 
+    // useEffect(() => {
+    //   localStorage.setToggle1('toggle1', JSON.stringify(toggle1));
+    // }, [toggle1]);
 
+    // useEffect(() => {
+    //   localStorage.setToggle2('toggle2', JSON.stringify(toggle2));
+    // }, [toggle2]);
+    
+    // useEffect(() => {
+    //   localStorage.setToggle3('toggle3', JSON.stringify(toggle3));
+    // }, [toggle3]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle4('toggle4', JSON.stringify(toggle4));
+    // }, [toggle4]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle5('toggle5', JSON.stringify(toggle5));
+    // }, [toggle5]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle6('toggle6', JSON.stringify(toggle6));
+    // }, [toggle6]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle7('toggle7', JSON.stringify(toggle7));
+    // }, [toggle7]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle8('toggle8', JSON.stringify(toggle8));
+    // }, [toggle8]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle9('toggle9', JSON.stringify(toggle9));
+    // }, [toggle9]);
+
+    // useEffect(() => {
+    //   localStorage.setToggle0('toggle0', JSON.stringify(toggle0));
+    // }, [toggle0]);
 
 const handleClick1 = () => {
     setToggle1(!toggle1);
@@ -50,6 +88,18 @@ const handleClick1 = () => {
   const handleClick0 = () => {
     setToggle0(!toggle0);
   };
+
+
+  // useEffect(() => {
+  //   const items = JSON.parse(localStorage.getItem('items'));
+  //   if (items) {
+  //    setItems(items);
+  //   }
+  // }, []);
+
+
+
+
   
 
 // useEffect(()=>{
