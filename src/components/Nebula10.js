@@ -1,58 +1,199 @@
 import nebulaEnergy from "./nebenergy.png"
 import usedNebulaEnergy from "./usednebenergy.png"
-import { useState } from "react";
+import { useState,useEffect } from "react"
 
-function Nebula10(){
-
-
-
-
-    const [toggle1, setToggle1] = useState(true);
-    const [toggle2, setToggle2] = useState(true);
-    const [toggle3, setToggle3] = useState(true);
-    const [toggle4, setToggle4] = useState(true);
-    const [toggle5, setToggle5] = useState(true);
-    const [toggle6, setToggle6] = useState(true);
-    const [toggle7, setToggle7] = useState(true);
-    const [toggle8, setToggle8] = useState(true);
-    const [toggle9, setToggle9] = useState(true);
-    const [toggle0, setToggle0] = useState(true);
+function Nebula10z(){
 
 
 
 
-const handleClick1 = () => {
-    setToggle1(!toggle1);
-  };
-  const handleClick2 = () => {
-    setToggle2(!toggle2);
-  };
-  const handleClick3 = () => {
-    setToggle3(!toggle3);
-  };
-  const handleClick4 = () => {
-    setToggle4(!toggle4);
-  };
-  const handleClick5 = () => {
-    setToggle5(!toggle5);
-  };
-  const handleClick6 = () => {
-    setToggle6(!toggle6);
-  };
-  const handleClick7 = () => {
-    setToggle7(!toggle7);
-  };
-  const handleClick8 = () => {
-    setToggle8(!toggle8);
-  };
-  const handleClick9 = () => {
-    setToggle9(!toggle9);
-  };
-  const handleClick0 = () => {
-    setToggle0(!toggle0);
-  };
+//     const [toggle1z, setToggle1z] = useState(true);
+//     const [toggle2z, setToggle2z] = useState(true);
+//     const [toggle3z, setToggle3z] = useState(true);
+//     const [toggle4z, setToggle4z] = useState(true);
+//     const [toggle5z, setToggle5z] = useState(true);
+//     const [toggle6z, setToggle6z] = useState(true);
+//     const [toggle7z, setToggle7z] = useState(true);
+//     const [toggle8z, setToggle8z] = useState(true);
+//     const [toggle9z, setToggle9z] = useState(true);
+//     const [toggle0z, setToggle0z] = useState(true);
+
+
+
+
+// const handleClick1z = () => {
+//     setToggle1z(!toggle1z);
+//   };
+//   const handleClick2z = () => {
+//     setToggle2z(!toggle2z);
+//   };
+//   const handleClick3z = () => {
+//     setToggle3z(!toggle3z);
+//   };
+//   const handleClick4z = () => {
+//     setToggle4z(!toggle4z);
+//   };
+//   const handleClick5z = () => {
+//     setToggle5z(!toggle5z);
+//   };
+//   const handleClick6z = () => {
+//     setToggle6z(!toggle6z);
+//   };
+//   const handleClick7z = () => {
+//     setToggle7z(!toggle7z);
+//   };
+//   const handleClick8z = () => {
+//     setToggle8z(!toggle8z);
+//   };
+//   const handleClick9z = () => {
+//     setToggle9z(!toggle9z);
+//   };
+//   const handleClick0z = () => {
+//     setToggle0z(!toggle0z);
+//   };
   
+const [toggle1z, setToggle1z] = useState(
+  localStorage.getItem('toggle1z') === 'true'
+);
 
+useEffect(() => {
+  localStorage.setItem('toggle1z', toggle1z.toString());
+}, [toggle1z]);
+
+const handleClick1z = () => {
+  setToggle1z(!toggle1z);
+};
+// 
+const [toggle2z, setToggle2z] = useState(
+localStorage.getItem('toggle2z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle2z', toggle2z.toString());
+}, [toggle2z]);
+
+const handleClick2z = () => {
+setToggle2z(!toggle2z);
+};
+
+// 
+const [toggle3z, setToggle3z] = useState(
+localStorage.getItem('toggle3z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle3z', toggle3z.toString());
+}, [toggle3z]);
+
+const handleClick3z = () => {
+setToggle3z(!toggle3z);
+};
+// --------------------------------------------
+const [toggle4z, setToggle4z] = useState(
+localStorage.getItem('toggle4z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle4z', toggle4z.toString());
+}, [toggle4z]);
+
+const handleClick4z = () => {
+setToggle4z(!toggle4z);
+};
+// --------------------------------------------
+const [toggle5z, setToggle5z] = useState(
+localStorage.getItem('toggle5z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle5z', toggle5z.toString());
+}, [toggle5z]);
+
+const handleClick5z = () => {
+setToggle5z(!toggle5z);
+};
+
+// --------------------------------------------
+
+const [toggle6z, setToggle6z] = useState(
+localStorage.getItem('toggle6z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle6z', toggle6z.toString());
+}, [toggle6z]);
+
+const handleClick6z = () => {
+setToggle6z(!toggle6z);
+};
+// --------------------------------------------
+const [toggle7z, setToggle7z] = useState(
+localStorage.getItem('toggle7z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle7z', toggle7z.toString());
+}, [toggle7z]);
+
+const handleClick7z = () => {
+setToggle7z(!toggle7z);
+};
+
+// --------------------------------------------
+
+const [toggle8z, setToggle8z] = useState(
+localStorage.getItem('toggle8z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle8z', toggle8z.toString());
+}, [toggle8z]);
+
+const handleClick8z = () => {
+setToggle8z(!toggle8z);
+};
+// --------------------------------------------
+
+const [toggle9z, setToggle9z] = useState(
+localStorage.getItem('toggle9z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle9z', toggle9z.toString());
+}, [toggle9z]);
+
+const handleClick9z = () => {
+setToggle9z(!toggle9z);
+};
+// --------------------------------------------
+
+const [toggle0z, setToggle0z] = useState(
+localStorage.getItem('toggle0z') === 'true'
+);
+
+useEffect(() => {
+localStorage.setItem('toggle0z', toggle0z.toString());
+}, [toggle0z]);
+
+const handleClick0z = () => {
+setToggle0z(!toggle0z);
+};
+// --------------------------------------------
+
+
+const handleReset = () => {
+  setToggle1z(false);
+  setToggle2z(false);
+  setToggle3z(false);
+  setToggle4z(false);
+  setToggle5z(false);
+  setToggle6z(false);
+  setToggle7z(false);
+  setToggle8z(false);
+  setToggle9z(false);  
+  setToggle0z(false);
+
+};
 
     return(
 
@@ -78,17 +219,18 @@ const handleClick1 = () => {
 
 
 <div>
-<img onClick={handleClick1} src={toggle1?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick2} src={toggle2?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick3} src={toggle3?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick4} src={toggle4?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick5} src={toggle5?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick6} src={toggle6?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick7} src={toggle7?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick8} src={toggle8?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick9} src={toggle9?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
-<img onClick={handleClick0} src={toggle0?nebulaEnergy:usedNebulaEnergy} alt="shooting star point 2"/>
+<img onClick={handleClick1z} src={toggle1z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick2z} src={toggle2z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick3z} src={toggle3z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick4z} src={toggle4z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick5z} src={toggle5z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick6z} src={toggle6z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick7z} src={toggle7z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick8z} src={toggle8z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick9z} src={toggle9z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
+<img onClick={handleClick0z} src={toggle0z?usedNebulaEnergy:nebulaEnergy} alt="shooting star point 2z"/>
 </div>
+<button className="orangeReset" onClick={handleReset}>Reset</button>
 
 </fieldset>
 </div>
@@ -96,4 +238,4 @@ const handleClick1 = () => {
 }
 
 
-export default Nebula10
+export default Nebula10z

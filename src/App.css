@@ -420,3 +420,12 @@ iframe {
   max-width: fit-content;
   max-height: fit-content;
 }
+
+
+.orangeReset{
+  background-color:#6e4877
+}
+
+.orangeReset:hover{
+  background-color:#7325615c
+}

@@ -1,9 +1,13 @@
 import { useState } from 'react';
 // import NebulaKID from './Nebula10';
 import Nebula10 from './Nebula10';
+import Nebula12 from './Nebula12';
+import Nebula11 from './Nebula11';
 import ShootingStars from './ShootingStars';
 import CheatSheet from './CheatSheet';
 import Nebula3 from "./Nebula3"
+import Nebula31 from './Nebula31';
+import Nebula32 from './Nebula32';
 function TrackerHome(){
 
   const [togglemode, setTogglemode] = useState(false);
@@ -11,13 +15,7 @@ function TrackerHome(){
   const handleCtrck = () => {
     setTogglemode(!togglemode);
   };
-//     const [mode, setMode] = useState(true);
 
-//     useEffect(()=>{
-// if()
-// }
-
-//     },[mode])
   
 
 if (togglemode) {
@@ -34,8 +32,8 @@ if (togglemode) {
 
 
 <div><Nebula10/></div>
-<div><Nebula10/></div>
-<div><Nebula10/></div>
+<div><Nebula12/></div>
+<div><Nebula11/></div>
 
 
 <div className="HRDiagram">
@@ -63,8 +61,8 @@ else {
 
 
 <div><Nebula3/></div>
-<div><Nebula3/></div>
-<div><Nebula3/></div>
+<div><Nebula31/></div>
+<div><Nebula32/></div>
 
 
 </div>
