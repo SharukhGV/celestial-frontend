@@ -386,10 +386,18 @@ iframe {
 }
 
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 663px) {
 
   .gamemanualCompass{
     max-width: 320px;
+    max-height: auto;
+  }
+}
+
+@media (min-width: 664px) and (max-width: 1700px) {
+
+  .gamemanualCompass{
+    max-width: 610px;
     max-height: auto;
   }
 }
