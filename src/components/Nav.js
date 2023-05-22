@@ -50,7 +50,6 @@ let activeStyle = {
               style={({ isActive }) =>
               isActive ? activeStyle : nonactiveStyle}
             >
-              
               Heavens
             </NavLink></li>
 
@@ -62,8 +61,7 @@ let activeStyle = {
               style={({ isActive }) =>
               isActive ? activeStyle : nonactiveStyle}
             >
-              
-              Compass
+              🔭
             </NavLink></li>
   
           </ul>
