@@ -54,8 +54,8 @@ else {
   <button className="buttonCheat" onClick={handleCtrck}>Nebula Kids-Easy Mode</button>
 
 
-  <p><strong className='warningwar'>W A R N I N G :</strong></p>
-<div className='warningnav' ><strong> Do not Navigate away from this page while keeping track of Victory Points because it will reload and reset the counters</strong></div>
+  <p><strong className='warningwar'> T R A C K E R </strong></p>
+<div className='warningnav' ><strong>Keep track of Shooting Star Victory Points and Nebulae Energies. Play Advanced mode or Kids mode. Kids mode uses only 3 Nebulae Energies while Advanced mode implements all features of the game.</strong></div>
 <div><ShootingStars/></div>
 
 

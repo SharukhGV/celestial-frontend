@@ -33,7 +33,7 @@ function CheatSheet(){
 if (toggle) {
   return (
     <div>
-      <button className="buttonCheat" onClick={handleCtrck} style={{ display: toggle ? 'block' : 'none' }} >Star Cheat Sheet
+      <button className="buttonCheat" onClick={handleCtrck} style={{ display: toggle ? 'block' : 'none' }} >Hide Star Cheat Sheet
 </button>
 
       <table className="trst-group">
