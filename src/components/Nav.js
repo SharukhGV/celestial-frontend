@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-
 function Nav(){
 let activeStyle = {
     textDecoration: "underline",
@@ -10,6 +9,10 @@ let activeStyle = {
   let nonactiveStyle = {
     color: "limegreen",
   };
+
+
+
+  
 
     return (
         <nav>
@@ -51,15 +54,16 @@ let activeStyle = {
               Heavens
             </NavLink></li>
 
+          
             <li> <NavLink
               className="links"
-              to="/tutorial"
+              to="/rulesmanual"
               exact="true"
               style={({ isActive }) =>
               isActive ? activeStyle : nonactiveStyle}
             >
               
-              Tutorials
+              Compass
             </NavLink></li>
   
           </ul>
