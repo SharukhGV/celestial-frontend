@@ -1,3 +1,5 @@
+import RulesSound from "./RulesSound";
+
 function Home(){
 
     const pixstyle= {
@@ -18,7 +20,7 @@ function Home(){
                 
     </div>
     
-    
+    <p><RulesSound/></p>
     
     </div>
     
